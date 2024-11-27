@@ -2,9 +2,13 @@
   "name": "@vite-playground/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
   "private": true,
   "dependencies": {
+    "@vitest/coverage-v8": "^2.1.6",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
@@ -47,7 +51,7 @@
     "tslib": "^2.3.0",
     "typescript": "~5.5.2",
     "typescript-eslint": "^8.0.0",
-    "vite": "^5.0.0",
-    "vitest": "^1.3.1"
+    "vite": "^6.0.1",
+    "vitest": "^2.1.6"
   }
 }
